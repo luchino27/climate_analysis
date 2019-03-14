@@ -1,4 +1,4 @@
-"""""
+
 
 import sys
 import temp_conversion
@@ -27,3 +27,5 @@ for line in climate_data:
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
 
             print(str(celsius)+", "+str(kelvin))
+
+#TODO(ls-possenti): Add a call to process rainfall
